@@ -2,7 +2,7 @@
   "name": "admin",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "xiaolin <462441355@qq.com>",
+  "author": "vue-admin",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

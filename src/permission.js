@@ -8,6 +8,8 @@ import {getToken} from 'common/js/cache'
 const whiteList = ['/login']// 不重定向白名单
 router.beforeEach((to, from, next) => {
   NProgress.start() // 开启Progress
+  next()
+  return false;
   if (getToken()) {
     next()
   } else {
